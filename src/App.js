@@ -124,7 +124,7 @@ function App() {
      var isChrome = !!window.chrome;
 
      if(isChrome && !utt.startsWith("My name is Skylar")) {
-       ttsSpeak(utt);
+       //ttsSpeak(utt);
      }
 
      // Hack to make it fit on screen
